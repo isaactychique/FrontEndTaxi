@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane prefWidth="700" prefHeight="440" stylesheets="@styles.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.frontendtaxi.ChoixConducteurOuPassagerController">
+ <children><VBox spacing="12" AnchorPane.topAnchor="34" AnchorPane.leftAnchor="40" AnchorPane.rightAnchor="40"><Label text="MY TAXI DRIVER" styleClass="eyebrow"/><Label text="How will you use the app?" styleClass="title"/><Label text="Choose a role to get started." styleClass="subtitle"/>
+ <HBox spacing="16"><VBox styleClass="card" spacing="12" prefWidth="300" HBox.hgrow="ALWAYS"><padding><Insets top="22" right="22" bottom="22" left="22"/></padding><Label text="01  /  PASSENGER" styleClass="eyebrow"/><Label text="Find a ride" style="-fx-font-size: 20px; -fx-font-weight: bold;"/><Label text="Set your route and look for an available driver." wrapText="true" styleClass="subtitle"/><Button fx:id="choixPassager" text="Continue as passenger" onAction="#siChoixPassager" maxWidth="Infinity"/></VBox>
+ <VBox styleClass="card" spacing="12" prefWidth="300" HBox.hgrow="ALWAYS"><padding><Insets top="22" right="22" bottom="22" left="22"/></padding><Label text="02  /  DRIVER" styleClass="eyebrow"/><Label text="Drive with us" style="-fx-font-size: 20px; -fx-font-weight: bold;"/><Label text="Make yourself available to connect with passengers." wrapText="true" styleClass="subtitle"/><Button fx:id="choixConducteur" text="Continue as driver" onAction="#siChoixConducteur" styleClass="secondary" maxWidth="Infinity"/></VBox></HBox></VBox></children>
+</AnchorPane>

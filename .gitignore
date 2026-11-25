@@ -1,0 +1,18 @@
+# Maven output and local IDE configuration
+/target/
+/.idea/
+*.iml
+
+# Local runtime data and profile pictures
+/Passager.txt
+/Conducteur.txt
+/Payer.txt
+/Images/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+
+# Legacy local dependency copies; Maven resolves project dependencies
+/jar_files/

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane fx:id="accueil" prefWidth="700" prefHeight="440" stylesheets="@styles.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.frontendtaxi.AccueilController">
+ <children><HBox spacing="22" AnchorPane.topAnchor="32" AnchorPane.bottomAnchor="32" AnchorPane.leftAnchor="32" AnchorPane.rightAnchor="32">
+  <VBox styleClass="hero" spacing="16" alignment="CENTER_LEFT" HBox.hgrow="ALWAYS" prefWidth="400"><padding><Insets top="35" right="32" bottom="35" left="32"/></padding>
+   <Label text="MY TAXI DRIVER" styleClass="hero-kicker"/><Label text="A better way&#10;to get moving." styleClass="hero-title"/><Label text="Your journey starts here." styleClass="hero-copy"/>
+  </VBox>
+  <VBox spacing="14" alignment="CENTER_LEFT" prefWidth="220"><Label text="WELCOME" styleClass="eyebrow"/><Label text="Ready to ride?" styleClass="title" wrapText="true"/><Label text="Choose your role and continue to the app." styleClass="subtitle" wrapText="true"/><Button text="Get started  →" onAction="#onGetStarted" maxWidth="Infinity"/><Label text="A taxi booking prototype" styleClass="subtitle" wrapText="true"/></VBox>
+ </HBox></children>
+</AnchorPane>

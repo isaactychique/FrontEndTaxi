@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane prefWidth="700" prefHeight="440" stylesheets="@styles.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.frontendtaxi.MenuConducteurController"><children>
+ <BorderPane fx:id="menuBorderPane" AnchorPane.topAnchor="0" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0">
+  <top><HBox alignment="CENTER_LEFT" spacing="12" style="-fx-background-color: #14213c;"><padding><Insets top="13" bottom="13" left="20" right="20"/></padding><Label text="MY TAXI DRIVER" styleClass="hero-kicker"/><Region HBox.hgrow="ALWAYS"/><Label text="DRIVER" styleClass="hero-kicker"/></HBox></top>
+  <left><VBox prefWidth="145" spacing="6" style="-fx-background-color: white;"><padding><Insets top="18" bottom="16" left="10" right="10"/></padding><Label text="NAVIGATION" styleClass="eyebrow"/><Button text="Home" onAction="#onAccueilButtonClick" styleClass="menu-button" maxWidth="Infinity" alignment="CENTER_LEFT"/><Button text="Profile" onAction="#onProfilButtonClick" styleClass="menu-button" maxWidth="Infinity" alignment="CENTER_LEFT"/><Button text="Switch role" onAction="#onChangeLeModeButtonClick" styleClass="menu-button" maxWidth="Infinity" alignment="CENTER_LEFT"/><Button text="About" onAction="#onAProposDeNousButtonClick" styleClass="menu-button" maxWidth="Infinity" alignment="CENTER_LEFT"/><Region VBox.vgrow="ALWAYS"/><ImageView fx:id="profil" fitWidth="30" fitHeight="30" preserveRatio="true"><image><Image url="@Images/Profile.png"/></image></ImageView><Label fx:id="userId" text="User" wrapText="true" styleClass="subtitle"/><Button text="Exit" onAction="#onQuitterButtonClick" styleClass="menu-button" maxWidth="Infinity" alignment="CENTER_LEFT"/></VBox></left>
+ </BorderPane></children></AnchorPane>

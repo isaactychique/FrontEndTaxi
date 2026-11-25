@@ -1,0 +1,24 @@
+/* Shared visual language for the JavaFX application. */
+.root { -fx-font-family: "DejaVu Sans", "Arial"; -fx-font-size: 12px; -fx-background-color: #f3f5f9; }
+.label { -fx-text-fill: #17223b; }
+.button { -fx-background-color: #1f58d1; -fx-background-radius: 8; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 9 16; -fx-cursor: hand; }
+.button:hover { -fx-background-color: #1749b2; }
+.button:focused, .text-field:focused, .date-picker:focused, .choice-box:focused { -fx-effect: dropshadow(gaussian, rgba(31,88,209,0.25), 8, 0, 0, 1); }
+.text-field, .password-field, .date-picker, .choice-box { -fx-background-color: white; -fx-background-radius: 7; -fx-border-color: #d9e0eb; -fx-border-radius: 7; -fx-padding: 7 9; -fx-prompt-text-fill: #8995a8; }
+.check-box { -fx-text-fill: #17223b; }
+.title { -fx-font-size: 30px; -fx-font-weight: bold; -fx-text-fill: #14213c; }
+.subtitle { -fx-font-size: 13px; -fx-text-fill: #65738a; }
+.eyebrow { -fx-font-size: 10px; -fx-font-weight: bold; -fx-text-fill: #1f58d1; }
+.field-label { -fx-font-size: 11px; -fx-font-weight: bold; -fx-text-fill: #46546a; }
+.hero { -fx-background-color: #14213c; -fx-background-radius: 14; }
+.hero-title { -fx-font-size: 31px; -fx-font-weight: bold; -fx-text-fill: white; }
+.hero-copy { -fx-font-size: 13px; -fx-text-fill: #c8d5ed; }
+.hero-kicker { -fx-font-size: 11px; -fx-font-weight: bold; -fx-text-fill: #9cbcf9; }
+.card { -fx-background-color: white; -fx-background-radius: 14; -fx-border-color: #e4e9f1; -fx-border-radius: 14; }
+.secondary { -fx-background-color: #eaf0fb; -fx-text-fill: #214783; }
+.secondary:hover { -fx-background-color: #dce7fa; }
+.menu-button { -fx-background-color: transparent; -fx-text-fill: #34445e; -fx-background-radius: 6; -fx-font-size: 11px; }
+.menu-button:hover { -fx-background-color: #eaf0fb; }
+.scroll-pane, .scroll-pane > .viewport { -fx-background-color: transparent; }
+.table-view { -fx-background-color: white; -fx-border-color: #e1e7f0; }
+.table-view .column-header-background, .table-view .column-header { -fx-background-color: #edf2f9; }
